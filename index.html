@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="calculator">
+
+        <!-- Calculator Heading -->
+        <h2>Calculator</h2>
+
+
+        <!-- Calculator Display -->
+        <input type="text" id="display" disabled>
+
+
+        <!-- Calculator Buttons -->
+        <div class="buttons">
+
+            <button class="clear">AC</button>
+            <button class="delete">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
+
+
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+
+
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+
+
+            <button>0</button>
+            <button>00</button>
+            <button>.</button>
+            <button class="equals">=</button>
+
+        </div>
+
+
+        <!-- Calculation History -->
+        <div class="history">
+
+    <h3>History</h3>
+
+    <div id="history-list"></div>
+
+    <button id="clear-history">Clear History</button>
+
+</div>
+
+    </div>
+
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
